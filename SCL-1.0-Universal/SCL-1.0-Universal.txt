@@ -4,7 +4,7 @@ SCL-1.0-Universal — Steven Compton Universal License v1.0
 Effective Date: <<EFFECTIVE_DATE>>
 Licensor: <<LICENSOR_NAME>> (“Licensor”)
 Package: <<PACKAGE_NAME>> (“Package”)
-Licensee: Any individual or entity installing, using, referencing, or integrating the Package
+Licensee: Any individual or entity installing, using, referencing, or integrating the “Package”
 
 SPDX Identifier: SCL-1.0-Universal
 
@@ -17,76 +17,76 @@ Refers to the software identified as <<PACKAGE_NAME>>, including its source
 code, object code, binaries, compiled outputs, metadata, and documentation.
 
 1.2 “Source Code”
-Human-readable implementation of the Package, whether distributed or not.
+Human-readable implementation of the “Package”, whether distributed or not.
 
 1.3 “Dependent System”
 Means any system, software, hardware, firmware, service, device, environment,
 runtime, application, platform, embedded implementation, virtual machine,
 cloud service, or any other construct that uses, integrates, links to, or
-depends upon the Package, directly or indirectly, without including or
-exposing the Package’s code or internal structure.
+depends upon the “Package”, directly or indirectly, without including or
+exposing the “Package’s” code or internal structure.
 
 1.4 “Derivative Work”
 Any software, product, service, system, or implementation based on or derived
-from the Package’s source code, object code, architecture, structure,
+from the “Package’s” source code, object code, architecture, structure,
 behavior, or design, in part or in whole.
 
 -----------------------------------------------------------------------
 
 2. Ownership
 
-<<LICENSOR_NAME>> retains exclusive ownership of all rights, title, and
-interest in and to <<PACKAGE_NAME>>, including all associated intellectual
-property. This Agreement transfers no ownership rights to the Licensee.
+The “Licensor” retains exclusive ownership of all rights, title, and
+interest in and to the “Package”, including all associated intellectual
+property. This Agreement transfers no ownership rights to the “Licensee”.
 
 -----------------------------------------------------------------------
 
 3. Grant of License
 
-Subject to all terms of this Agreement, the Licensor grants the Licensee a
+Subject to all terms of this Agreement, the “Licensor” grants the “Licensee” a
 limited, non-exclusive, revocable, non-transferable, and non-sublicensable
 license to:
 
-1. Use the Package as a dependency in Licensee-created Dependent Systems.
-2. Distribute Dependent Systems, provided the Package is never included,
+1. Use the “Package” as a dependency in “Dependent Systems” created by the “Licensee”.
+2. Distribute “Dependent Systems”, provided the “Package” is never included,
    exposed, modified, redistributed, or replicated in any form.
 
-Nothing in this Agreement grants the Licensee permission to:
+Nothing in this Agreement grants the “Licensee” permission to:
 
-- modify the Package
-- redistribute the Package
-- fork the Package
-- repackage the Package
-- host the Package
-- analyze the Package
-- expose internal behavior
-- create derivative or competing software
+- modify the “Package”
+- redistribute the “Package”
+- fork the “Package”
+- repackage the “Package”
+- host the “Package”
+- analyze the “Package”
+- expose internal behavior of the “Package”
+- create derivative or competing software based on the “Package”
 
 -----------------------------------------------------------------------
 
 4. Prohibited Uses
 
-Without the express written permission of the Licensor, the Licensee shall
+Without the express written permission of the “Licensor”, the “Licensee” shall
 not:
 
-1. Modify, decompile, reverse-engineer, or disassemble the Package.
-2. Include the Package’s source code or object code in any distributed
+1. Modify, decompile, reverse-engineer, or disassemble the “Package”.
+2. Include the “Package’s” source code or object code in any distributed
    software, service, or application.
-3. Use the Package to create a competing product or service that replicates
+3. Use the “Package” to create a competing product or service that replicates
    its functionality.
-4. Make the Package publicly available, including uploading it to public
+4. Make the “Package” publicly available, including uploading it to public
    repositories or including it in distributed software bundles.
 5. Attempt to extract or analyze any functionality, structure, or internal
-   behavior of the Package through runtime inspection, instrumentation,
+   behavior of the “Package” through runtime inspection, instrumentation,
    reflection, or behavioral analysis.
-6. Privately share, sublicense, or distribute the Package or any portion
+6. Privately share, sublicense, or distribute the “Package” or any portion
    thereof, whether internally or externally, without written authorization.
 7. Remove, obscure, obfuscate, or alter any attribution, copyright notices,
-   proprietary labels, or identifiers included in the Package.
-8. Re-upload, rename, fork, or redistribute the Package or any portion of it
+   proprietary labels, or identifiers included in the “Package”.
+8. Re-upload, rename, fork, or redistribute the “Package” or any portion of it
    on any registry, platform, or namespace other than that explicitly
-   maintained or authorized by the Licensor.
-9. Use the Package in any way that violates applicable laws, infringes on
+   maintained or authorized by the “Licensor”.
+9. Use the “Package” in any way that violates applicable laws, infringes on
    third-party rights, or breaches this Agreement.
 
 Any attempt to bypass or circumvent these restrictions constitutes a material
@@ -96,22 +96,22 @@ breach.
 
 5. Dependent System Requirements
 
-The Licensee may create and distribute Dependent Systems only if:
+The “Licensee” may create and distribute “Dependent Systems” only if:
 
-1. The Dependent System does not include or expose any portion of the
-   Package’s source code or object code.
-2. The Dependent System identifies <<PACKAGE_NAME>> as a dependency in its
+1. The “Dependent System” does not include or expose any portion of the
+   “Package’s” source code or object code.
+2. The “Dependent System” identifies the “Package” as a dependency in its
    documentation.
-3. The Dependent System provides substantial original functionality.
-4. The Dependent System does not replicate, emulate, reimplement, or mimic
-   any significant part of the Package’s behavior or design.
-5. The Dependent System complies fully with this Agreement.
+3. The “Dependent System” provides substantial original functionality.
+4. The “Dependent System” does not replicate, emulate, reimplement, or mimic
+   any significant part of the “Package’s” behavior or design.
+5. The “Dependent System” complies fully with this Agreement.
 
 -----------------------------------------------------------------------
 
 6. Request for Additional Permissions
 
-Licensee may request additional rights by contacting:
+The “Licensee” may request additional rights by contacting:
 
 <<LICENSOR_CONTACT>>
 
@@ -119,7 +119,7 @@ Requests must:
 1. Be submitted in writing,
 2. Describe purpose, scope, and distribution method.
 
-The Licensor may approve or deny at sole discretion, impose additional terms,
+The “Licensor” may approve or deny at sole discretion, impose additional terms,
 or revoke previously granted permissions with written notice. All permissions
 must be explicit and in writing.
 
@@ -130,32 +130,33 @@ must be explicit and in writing.
 Any violation of this Agreement results in immediate termination of all
 licensed rights.
 
-Upon termination, the Licensee must:
-- cease all use of the Package,
-- remove the Package from all systems and environments,
+Upon termination, the “Licensee” must:
+- cease all use of the “Package”,
+- remove the “Package” from all systems and environments,
 - destroy all copies, including caches and build artifacts,
 - confirm destruction in writing if requested.
 
-The Licensor may pursue damages, injunctive relief, or any other legal
+The “Licensor” may pursue damages, injunctive relief, or any other legal
 remedy.
 
 -----------------------------------------------------------------------
 
 8. No Warranty
 
-The Package is provided “AS IS”, without any warranty, express or implied,
+The “Package” is provided “AS IS”, without any warranty, express or implied,
 including but not limited to merchantability, fitness for a particular
-purpose, or non-infringement. Licensee assumes all risk associated with use.
+purpose, or non-infringement. The “Licensee” assumes all risk associated with
+use.
 
 -----------------------------------------------------------------------
 
 9. Intellectual Property Limitations
 
-Nothing in this Agreement grants the Licensee any rights under any patent,
+Nothing in this Agreement grants the “Licensee” any rights under any patent,
 whether by implication, estoppel, exhaustion, or otherwise. Any use requiring
-a patent license must receive separate written permission from the Licensor.
+a patent license must receive separate written permission from the “Licensor”.
 
-This Agreement grants no rights to use the Licensor’s trademarks, service
+This Agreement grants no rights to use the “Licensor’s” trademarks, service
 marks, branding, logos, product names, or organizational names. Any such use
 requires separate written permission.
 
@@ -166,9 +167,9 @@ implied by this license.
 
 10. Indemnification
 
-Licensee agrees to indemnify and hold harmless the Licensor from any claims,
-damages, liabilities, losses, or expenses arising from violation of this
-Agreement, misuse of the Package, or unlawful or infringing use.
+The “Licensee” agrees to indemnify and hold harmless the “Licensor” from any
+claims, damages, liabilities, losses, or expenses arising from violation of this
+Agreement, misuse of the “Package”, or unlawful or infringing use.
 
 -----------------------------------------------------------------------
 
@@ -182,21 +183,21 @@ shall be resolved exclusively through binding arbitration in
 
 12. Amendments
 
-The Licensor may modify this Agreement at any time. Changes take effect
+The “Licensor” may modify this Agreement at any time. Changes take effect
 30 days after posting at:
 
 <<OFFICIAL_LICENSE_URL>>
 
-Continued use of the Package constitutes acceptance of the updated terms.
+Continued use of the “Package” constitutes acceptance of the updated terms.
 
 -----------------------------------------------------------------------
 
 13. Applicability to All Versions
 
-This Agreement applies to all versions of <<PACKAGE_NAME>> downloaded,
+This Agreement applies to all versions of the “Package” downloaded,
 installed, or used on or after the Effective Date. Use of any version after
 this date constitutes acceptance of this License unless explicitly overridden
-by the Licensor.
+by the “Licensor”.
 
 -----------------------------------------------------------------------
 

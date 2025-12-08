@@ -99,6 +99,7 @@ https://github.com/spdx/license-list-XML/issues/new/choose
 
 # License Directory Structure
 
+```txt
 SCL-License-Suite/
 │
 ├── LICENSE-NAME-[VERSION]/
@@ -106,6 +107,7 @@ SCL-License-Suite/
 │   └── README.md
 │
 └── SCL-Suite-Overview.md
+```
 
 ---------------------------------------------------------------------
 

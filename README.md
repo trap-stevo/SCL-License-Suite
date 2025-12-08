@@ -106,7 +106,8 @@ SCL-License-Suite/
 │   ├── LICENSE-NAME-[VERSION].txt
 │   └── README.md
 │
-└── SCL-Suite-Overview.md
+├── LICENSE.md
+└── README.md
 ```
 
 ---------------------------------------------------------------------

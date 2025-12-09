@@ -92,6 +92,14 @@ not:
 Any attempt to bypass or circumvent these restrictions constitutes a material
 breach.
 
+4.A. No Competitive Re-implementation
+
+“Licensee” shall not create, develop, train, test, benchmark, or distribute any software, system, service, model, or method that uses, incorporates, is derived from, or is based upon the “Package’s” source code, object code, algorithms, data structures, interfaces, protocols, internal behavior, design, architecture, or execution characteristics for the purpose of creating a product or service that provides substantially similar functionality to the “Package”, competes with the “Package”, or reproduces its core operations.
+
+“Licensee” shall not directly or indirectly analyze, observe, measure, study, or evaluate the behavior, performance, outputs, or internal characteristics of the “Package” for the purpose of creating, validating, training, improving, or assisting any competing or functionally similar software, system, service, or model.
+
+Any such activity shall constitute creation of an unauthorized derivative work and is strictly prohibited.
+
 -----------------------------------------------------------------------
 
 5. Dependent System Requirements
@@ -165,7 +173,51 @@ implied by this license.
 
 -----------------------------------------------------------------------
 
-10. Indemnification
+10. Patent Rights and Restrictions
+
+10.1 No Implied Patent License
+
+Except as expressly stated in this Section, the “Licensor” grants no license, covenant, immunity, or right under any patent or patent application owned, controlled, or licensable by the “Licensor”. All such rights are expressly reserved.
+
+10.2 Patent Grant for Non-Competitive Use
+
+Subject to full compliance with this Agreement, the “Licensor” grants the “Licensee” a limited, non-exclusive, non-transferable, revocable, royalty-free patent license to use any patent claims embodied in the “Package” solely to the extent necessary to use the unmodified “Package” as permitted under Section 3.
+
+This grant does not extend to:
+
+- derivative works
+
+- competing software
+
+- re-implementations
+
+- architectural replications
+
+- alternative implementations of patented methods
+
+- any use not directly involving the unmodified “Package”
+
+10.3 Patent Restriction for Competing Systems
+
+No patent license is granted for any software, system, service, or model that:
+
+- competes with the “Package”,
+
+- provides substantially similar core functionality,
+
+- implements any patented algorithm, method, design, architecture, or process used by the Package, or
+
+- is a re-implementation or functional substitute of the “Package”.
+
+Any such use constitutes patent infringement and is prohibited.
+
+10.4 Termination of Patent Rights
+
+Any violation of this Agreement immediately terminates all patent licenses granted herein. Upon termination, Licensee must cease all uses of the patented subject matter and destroy any implementations utilizing such technology.
+
+-----------------------------------------------------------------------
+
+11. Indemnification
 
 The “Licensee” agrees to indemnify and hold harmless the “Licensor” from any
 claims, damages, liabilities, losses, or expenses arising from violation of this
@@ -173,7 +225,7 @@ Agreement, misuse of the “Package”, or unlawful or infringing use.
 
 -----------------------------------------------------------------------
 
-11. Governing Law and Dispute Resolution
+12. Governing Law and Dispute Resolution
 
 This Agreement is governed by the laws of <<JURISDICTION>>. All disputes
 shall be resolved exclusively through binding arbitration in
@@ -181,7 +233,7 @@ shall be resolved exclusively through binding arbitration in
 
 -----------------------------------------------------------------------
 
-12. Amendments
+13. Amendments
 
 The “Licensor” may modify this Agreement at any time. Changes take effect
 30 days after posting at:
@@ -192,7 +244,7 @@ Continued use of the “Package” constitutes acceptance of the updated terms.
 
 -----------------------------------------------------------------------
 
-13. Applicability to All Versions
+14. Applicability to All Versions
 
 This Agreement applies to all versions of the “Package” downloaded,
 installed, or used on or after the Effective Date. Use of any version after

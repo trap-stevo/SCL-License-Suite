@@ -1,0 +1,152 @@
+SCL-1.0-Open
+Steven Compton Libraries — Open License v1.0
+
+License Steward: Steven Compton Libraries
+SPDX-License-Identifier: SCL-1.0-Open
+
+------------------------------------------------------------
+
+Definitions
+
+“Software” refers to the software, source code, and documentation distributed under this License.
+
+“Author” refers to the individual or entity identified as the author of the Software in the accompanying copyright notice.
+
+“Contributor” refers to any party that submits modifications or additions to the Software.
+
+“License Steward” refers exclusively to Steven Compton Libraries.
+
+------------------------------------------------------------
+
+1. Grant of Rights
+
+Permission hereby grants, without charge, to any person or entity obtaining a copy of the Software, the unrestricted right to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the Software, and to permit recipients of the Software to exercise the same rights.
+
+These rights apply to all purposes, including commercial, academic, private, internal, and derivative use.
+
+------------------------------------------------------------
+
+2. Conditions of Distribution
+
+All copies or substantial portions of the Software must include this License in full and the original copyright notice.
+
+Modified versions must include prominent notice of modification within source files, documentation, or accompanying materials.
+
+No obligation exists to disclose modifications publicly.
+
+Removal, alteration, concealment, or obfuscation of copyright notices, license text, attribution, or authorship references violates this License.
+
+------------------------------------------------------------
+
+3. Attribution and Origin Integrity
+
+All source distributions must preserve attribution to the Author.
+
+All binary distributions must preserve attribution to the Author within documentation, legal notices, metadata, “about” dialogs, or an equivalent mechanism accessible to users.
+
+Attribution must remain reasonably discoverable through ordinary use of the Software without requiring specialized knowledge, non-obvious actions, or external investigation.
+
+Attribution communicates authorship only.
+Attribution communicates no endorsement, certification, sponsorship, or approval.
+
+No distributor may represent the Software, or any derivative, as original work authored by a party other than the Author, except with explicit written permission.
+
+------------------------------------------------------------
+
+4. Trademark, Branding, and Identity Protection
+
+This License grants no rights to use, reproduce, display, imitate, approximate, or imply association with the names, trademarks, service marks, logos, product identifiers, branding, trade dress, or visual identities of the Author, except for limited attribution as defined below.
+
+Attribution permits reference to the Author’s name solely for factual identification of authorship, and only in a non-prominent, non-decorative, non-marketing context.
+
+These restrictions apply equally to textual, visual, audiovisual, demonstrative, or simulated representations of the Software or its behavior.
+
+This restriction includes, without limitation, use within project names, package names, repository names, product names, logos or logo-like symbols, icons, color systems, typography systems, layout or interface patterns used for identification, marketing or promotional language, metadata, tags, keywords, or descriptions, and distribution channels, registries, or marketplaces.
+
+Forks, derivatives, and redistributions must adopt naming and branding sufficiently distinct to eliminate any reasonable likelihood of confusion regarding origin, authorship, lineage, maintenance responsibility, governance, or endorsement.
+
+Intentional use of keywords, tags, naming patterns, or descriptors designed primarily to capture search traffic or audience association through confusion constitutes prohibited representation under this License.
+
+No party may represent, suggest, or imply that a fork, derivative, or independent implementation constitutes an official version, a continuation, a successor, a community edition, a compatible replacement, or an affiliated project without separate written permission from the Author.
+
+Nothing in this License grants trademark or branding rights to Contributors unless explicitly granted outside this License.
+
+------------------------------------------------------------
+
+5. No Implied Authority or Official Status
+
+No permission granted under this License conveys authority to claim official status, imply maintenance responsibility, suggest roadmap alignment, represent governance control, or present derivative works as endorsed or approved.
+
+Any such representation constitutes misattribution.
+
+------------------------------------------------------------
+
+6. Behavioral Representation and Equivalence
+
+This License grants no rights to represent the Software, or any independent or derivative implementation, as behaviorally identical, functionally equivalent, drop-in compatible, a replacement for, a continuation of, or derived from the Software, except where such representation remains factually accurate and explicitly qualified.
+
+Any representation of behavioral similarity must include qualification of non-affiliation, non-endorsement, and independent authorship with equal or greater prominence than the behavioral claim itself, and must avoid confusion regarding authorship, origin, lineage, governance, or endorsement.
+
+------------------------------------------------------------
+
+7. Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+All risk associated with use transfers to the user.
+
+------------------------------------------------------------
+
+8. Limitation of Liability
+
+UNDER NO CIRCUMSTANCES SHALL THE AUTHOR, CONTRIBUTORS, OR LICENSE STEWARD BE LIABLE FOR ANY CLAIM, DAMAGE, OR LOSS, INCLUDING DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, ARISING FROM USE, MODIFICATION, OR DISTRIBUTION OF THE SOFTWARE.
+
+------------------------------------------------------------
+
+9. Patent Grant and Retaliation
+
+Each Contributor grants a non-exclusive, worldwide, royalty-free patent license under patent claims owned or controlled by that Contributor, solely to the extent required to use, modify, and distribute their contribution within the Software.
+
+No patent rights grant extends beyond claims necessarily infringed by the Contributor’s contribution as incorporated into the Software.
+
+This patent license terminates automatically for any party that initiates patent litigation alleging infringement by the Software or any contribution.
+
+------------------------------------------------------------
+
+10. No Additional Restrictions or Substitution
+
+No distributor may impose legal, contractual, technical, or behavioral restrictions that limit or contradict the rights granted under this License.
+
+This License supersedes conflicting terms introduced by downstream licenses, platform agreements, wrappers, installers, delivery mechanisms, or additional agreements.
+
+------------------------------------------------------------
+
+11. Scope and Non-Expansion
+
+This License governs only the Software distributed under this License.
+
+This License grants no rights to unrelated software, external systems or services, documentation not distributed with the Software, or trademarks or branding beyond attribution.
+
+Similarity, interoperability, inspiration, or conceptual resemblance alone creates no licensing obligation or entitlement.
+
+------------------------------------------------------------
+
+12. License Identity and Stewardship
+
+This License carries the identifier “SCL-1.0-Open”, the SPDX identifier “SCL-1.0-Open”, and the steward name “Steven Compton Libraries”.
+
+No recipient, distributor, modifier, or author may remove, rename, obscure, alter, or replace the License name “SCL-1.0-Open”, the SPDX identifier “SCL-1.0-Open”, or the License Steward name “Steven Compton Libraries” from this License text, its headers, or its identifying metadata.
+
+Modified versions of this License, or licenses derived from this License, must not use the name “SCL-1.0-Open” or reference Steven Compton Libraries.
+
+Only the original, unmodified License text published by the License Steward may carry the name “SCL-1.0-Open”.
+
+------------------------------------------------------------
+
+13. Severability
+
+If any provision of this License lacks enforceability, all remaining provisions remain effective without modification.
+
+------------------------------------------------------------
+
+SPDX-License-Identifier: SCL-1.0-Open

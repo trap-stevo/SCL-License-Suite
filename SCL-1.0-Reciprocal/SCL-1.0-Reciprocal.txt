@@ -1,0 +1,149 @@
+SCL-1.0-Reciprocal
+Steven Compton Libraries — Reciprocal Open Source License v1.0
+
+License Steward: Steven Compton Libraries
+SPDX-License-Identifier: SCL-1.0-Reciprocal
+
+----------------------------------------------------------------
+
+Definitions
+
+“Software” refers to the software, source code, and documentation distributed under this License.
+
+“Author” refers to the individual or entity identified as the author of the Software in the accompanying copyright notice.
+
+“Contributor” refers to any party submitting modifications or additions to the Software.
+
+“License Steward” refers exclusively to Steven Compton Libraries.
+
+“Marks” refers to the names, trademarks, service marks, logos, trade dress, product identifiers, and visual identities of the Author or License Steward.
+
+“Likelihood of Confusion” means a reasonable probability that an ordinary user would mistakenly believe a work originates from, receives sponsorship from, carries endorsement from, or maintains affiliation with the Author or License Steward.
+
+“Reciprocal Work” means any software or component that derives from, modifies, forks, or incorporates the Software, or substantially replicates, reimplements, or mimics the core functional behavior, purpose, or technical operation of the Software, whether or not original source code from the Software appears in such work.
+
+A work that merely uses, links to, embeds, depends on, or interfaces with the Software as a component within a larger system, without replicating its core functionality, does not qualify as a Reciprocal Work.
+
+----------------------------------------------------------------
+
+1. Grant of Rights
+
+Permission hereby grants, without charge, to any person or entity obtaining a copy of the Software the right to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the Software, subject to the conditions set forth in this License.
+
+These rights extend to commercial, academic, private, internal, and derivative use only where full compliance with this License occurs.
+
+----------------------------------------------------------------
+
+2. Conditions of Distribution
+
+All copies or substantial portions of the Software must include this License in full and the original copyright notice.
+
+Modified versions must include prominent notice of modification within source files, documentation, or accompanying materials.
+
+Removal, alteration, concealment, or obfuscation of copyright notices, license text, attribution, or authorship references violates this License.
+
+----------------------------------------------------------------
+
+3. Reciprocal Open Source Requirement
+
+Distribution, publication, or third-party availability of any Reciprocal Work triggers the following obligations. The Reciprocal Work must carry a license under SCL-1.0-Reciprocal. The complete corresponding source code of the Reciprocal Work must remain publicly available. This License must appear in full without modification.
+
+This requirement applies solely to the Reciprocal Work itself.
+
+Software that incorporates, links to, embeds, or depends on the Software without replicating its core functionality remains outside the scope of this Section and carries no obligation to disclose source code.
+
+Relicensing, dual licensing, or application of additional terms that restrict rights granted under this License remains prohibited for any Reciprocal Work.
+
+Artificial separation, modularization, or indirection intended to avoid reciprocity does not exempt a Reciprocal Work from the obligations of this License.
+
+----------------------------------------------------------------
+
+4. Network Use and Service Provision
+
+Provision of functionality, services, or access to users over a network through a Reciprocal Work triggers the following obligations. The complete corresponding source code of the Reciprocal Work must remain publicly available under this License. Users must receive clear notice regarding their right to obtain that source code.
+
+Use of the Software as a component within a larger system or service does not trigger these obligations unless the larger system qualifies as a Reciprocal Work.
+
+----------------------------------------------------------------
+
+5. Attribution and Origin Integrity
+
+All source distributions must preserve attribution to the Author.
+
+All binary or service-based distributions must preserve attribution within documentation, legal notices, metadata, “about” dialogs, or an equivalent mechanism accessible through ordinary use.
+
+Attribution communicates authorship only and conveys no endorsement, sponsorship, certification, or approval.
+
+No distributor may represent the Software or any Reciprocal Work as original work authored by a party other than the Author without explicit written permission.
+
+----------------------------------------------------------------
+
+6. Trademark, Branding, and Identity Protection
+
+This License grants no rights to use the Marks beyond limited attribution permitted herein.
+
+Forks and Reciprocal Works must adopt naming, branding, and visual identity sufficiently distinct to avoid any Likelihood of Confusion.
+
+Use of the Marks may not imply endorsement, governance authority, official status, or maintenance responsibility.
+
+----------------------------------------------------------------
+
+7. No Implied Authority or Official Status
+
+Nothing in this License conveys authority to claim official status, imply maintenance responsibility, suggest roadmap alignment, represent governance control, or present Reciprocal Works as endorsed or approved.
+
+Any such representation constitutes misattribution.
+
+----------------------------------------------------------------
+
+8. Compatibility, Equivalence, and Non-Affiliation Disclosures
+
+References to compatibility, equivalence, replacement, or derivation must remain factually accurate, include a clear statement of non-affiliation and non-endorsement, and avoid any Likelihood of Confusion.
+
+----------------------------------------------------------------
+
+9. Patent Grant and Retaliation
+
+Each Contributor grants a non-exclusive, worldwide, royalty-free patent license covering claims necessarily infringed by their contribution.
+
+Initiation of patent litigation alleging infringement by the Software or any contribution results in automatic termination of this patent license.
+
+----------------------------------------------------------------
+
+10. Warranty Disclaimer
+
+THE SOFTWARE PROVIDES “AS IS” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+ALL RISK ASSOCIATED WITH USE TRANSFERS TO THE USER.
+
+----------------------------------------------------------------
+
+11. Limitation of Liability
+
+UNDER NO CIRCUMSTANCES SHALL THE AUTHOR, CONTRIBUTORS, OR LICENSE STEWARD INCUR LIABILITY FOR ANY CLAIM, DAMAGE, OR LOSS ARISING FROM USE, MODIFICATION, OR DISTRIBUTION OF THE SOFTWARE.
+
+----------------------------------------------------------------
+
+12. Termination
+
+Any violation of this License results in automatic termination of all rights granted herein.
+
+Reinstatement requires full compliance with all License terms.
+
+----------------------------------------------------------------
+
+13. License Identity and Stewardship
+
+This License carries the identifier “SCL-1.0-Reciprocal” and operates under stewardship by Steven Compton Libraries.
+
+Modified or derived licenses may not use this name or reference Steven Compton Libraries.
+
+----------------------------------------------------------------
+
+14. Severability
+
+If any provision lacks enforceability, all remaining provisions continue in full effect.
+
+----------------------------------------------------------------
+
+SPDX-License-Identifier: SCL-1.0-Reciprocal

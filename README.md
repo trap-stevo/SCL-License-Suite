@@ -10,6 +10,7 @@ without forcing a single policy across all use cases.
 This structure supports:
 
 - permissive open-source licenses
+- reciprocal open-source licenses
 - restricted source-available licenses
 - commercial and subscription-based licenses
 - dual-licensing structures
@@ -39,12 +40,40 @@ commercial deployment, while enforcing:
 - safeguards against confusing or deceptive representation
 - patent grant with retaliation protection
 
+No obligation exists to publicly disclose modifications.
+
 Suitable for open libraries, frameworks, tools, and foundational components
-intended for public reuse.
+intended for maximum reuse and ecosystem adoption.
 
 ---------------------------------------------------------------------
 
-## 2. SCL-1.0  
+## 2. SCL-1.0-Reciprocal  
+**SPDX Identifier:** SCL-1.0-Reciprocal
+
+A reciprocal open-source license that preserves open use while requiring
+source-code disclosure for works that replicate or reimplement the core
+functional behavior of the licensed Software.
+
+SCL-1.0-Reciprocal enforces reciprocity only at the level of functional
+equivalence. Larger products, platforms, or systems that merely use or embed
+the Software do not inherit open-source obligations.
+
+The license enforces:
+
+- mandatory open sourcing of forks and functional equivalents
+- protection against closed-source reimplementations
+- clear separation between reusable components and larger systems
+- strong attribution and origin integrity
+- trademark and identity protection
+- patent grant with retaliation protection
+- network-use disclosure for qualifying reciprocal works
+
+Suitable for core engines, protocols, runtimes, and systems where functional
+cloning should remain open without imposing product-level contagion.
+
+---------------------------------------------------------------------
+
+## 3. SCL-1.0  
 **SPDX Identifier:** SCL-1.0
 
 A foundational dependency-usage license that restricts redistribution,
@@ -56,7 +85,7 @@ dependent systems.
 
 ---------------------------------------------------------------------
 
-## 3. SCL-1.0-Universal  
+## 4. SCL-1.0-Universal  
 **SPDX Identifier:** SCL-1.0-Universal
 
 A broad-scope, source-available license supporting use across:
@@ -73,7 +102,7 @@ integrity.
 
 ---------------------------------------------------------------------
 
-## 4. SCL-Enterprise-1.0  
+## 5. SCL-Enterprise-1.0  
 **SPDX Identifier:** SCL-Enterprise-1.0
 
 A commercial, subscription-backed license offering:
@@ -109,7 +138,7 @@ of openness or restriction without ambiguity.
 
 Future licenses in the SCL Suite may include:
 
-- additional permissive SCL variants
+- additional permissive or reciprocal SCL variants
 - hardware-specific or firmware-specific licenses
 - time-gated or delayed-open licenses
 - research and academic-use licenses

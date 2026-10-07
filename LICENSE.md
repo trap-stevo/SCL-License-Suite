@@ -10,7 +10,7 @@ Each license folder includes:
 - a canonical `.txt` legal document  
 - a README describing usage boundaries  
 - placeholder variables for project-specific metadata  
-- an SPDX identifier declaration  
+- a license identifier where specified  
 
 ---
 
@@ -20,7 +20,7 @@ Users may:
 
 - copy the canonical license texts verbatim  
 - redistribute the unmodified license texts  
-- reference the texts in SPDX submissions  
+- reference the texts in compliance records with accurate identification  
 - include the texts inside software packages selecting SCL licenses  
 
 Users may not:
@@ -29,7 +29,7 @@ Users may not:
 - publish altered versions under the same name  
 - generate derivative licenses without renaming  
 
-Any modification mandates a new license name and a unique SPDX ID request.
+Altered legal terms must not be represented as an unchanged canonical SCL license. Use a distinct license name and identifier for a materially altered license text. Filling designated publication fields for a particular Package does not itself constitute altering the canonical legal terms.
 
 ---
 
@@ -49,7 +49,7 @@ Users agree to:
 
 - keep canonical texts intact  
 - apply placeholder values only in allowed locations  
-- maintain SPDX accuracy when integrating the licenses  
+- accurately identify the selected license when integrating it into packages  
 - follow the exact legal structure of each license variant  
 
 ---

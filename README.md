@@ -25,7 +25,7 @@ explicit rights, and well-defined limitations.
 # Current Licenses in the Suite
 
 ## 1. SCL-1.0-Open  
-**SPDX Identifier:** SCL-1.0-Open
+**License Identifier:** SCL-1.0-Open
 
 A permissive, open-source license designed for broad adoption while preserving
 strong attribution, identity integrity, and protection against misleading
@@ -48,7 +48,7 @@ intended for maximum reuse and ecosystem adoption.
 ---------------------------------------------------------------------
 
 ## 2. SCL-1.0-Reciprocal  
-**SPDX Identifier:** SCL-1.0-Reciprocal
+**License Identifier:** SCL-1.0-Reciprocal
 
 A reciprocal open-source license that preserves open use while requiring
 source-code disclosure for works that replicate or reimplement the core
@@ -74,7 +74,7 @@ cloning should remain open without imposing product-level contagion.
 ---------------------------------------------------------------------
 
 ## 3. SCL-1.0  
-**SPDX Identifier:** SCL-1.0
+**License Identifier:** SCL-1.0
 
 A foundational dependency-usage license that restricts redistribution,
 forking, and reverse engineering.
@@ -86,7 +86,7 @@ dependent systems.
 ---------------------------------------------------------------------
 
 ## 4. SCL-1.0-Universal  
-**SPDX Identifier:** SCL-1.0-Universal
+**License Identifier:** SCL-1.0-Universal
 
 A broad-scope, source-available license supporting use across:
 
@@ -102,8 +102,27 @@ integrity.
 
 ---------------------------------------------------------------------
 
-## 5. SCL-Enterprise-1.0  
-**SPDX Identifier:** SCL-Enterprise-1.0
+## 5. SCL-1.1-Universal  
+**License Identifier:** SCL-1.1-Universal
+
+An updated source-available license for commercial and noncommercial use as
+an integrated dependency in genuine applications, services, frameworks, SDKs,
+plugins, and developer tools. It permits ordinary build transformations and
+necessary integrated runtime distribution, while restricting standalone
+redistribution, unauthorized modifications, public mirroring, and disguised
+package republishing.
+
+- [Canonical plain-text license](SCL-1.1-Universal/SCL-1.1-Universal.txt)
+- [Markdown license](SCL-1.1-Universal/SCL-1.1-Universal.md)
+- [Integration guide](SCL-1.1-Universal/README.md)
+
+SCL-1.1-Universal does not retroactively replace SCL-1.0-Universal or alter
+rights granted to previously distributed releases.
+
+---------------------------------------------------------------------
+
+## 6. SCL-Enterprise-1.0  
+**License Identifier:** SCL-Enterprise-1.0
 
 A commercial, subscription-backed license offering:
 
@@ -125,7 +144,7 @@ The SCL Suite prioritizes:
 - explicit boundaries between license models
 - strong IP protection where required
 - predictable structures for legal and compliance teams
-- compatibility with SPDX, SBOMs, and automated tooling
+- compatibility with software bills of materials (SBOMs) and automated tooling
 - long-term stability for ecosystem adoption
 
 The suite intentionally separates **permission models** rather than collapsing
@@ -150,18 +169,17 @@ existing licenses.
 
 ---------------------------------------------------------------------
 
-# SPDX & Tooling Integration
+# License Metadata & Tooling Integration
 
-Each license directory contains:
+Each included license has its own identifier and applicable legal text.
+Use package-manager-supported custom-license metadata and include the full
+applicable license with each Package release. An internal license identifier
+does not by itself establish registration in any external license registry.
 
-- canonical legal text (.txt or .md)
-- a README.md describing intended usage and scope
-- a fixed SPDX identifier for scanners and SBOM generators
-- optional placeholder metadata that never alters legal meaning
-- content prepared for SPDX License List submission
-
-SPDX submission entry point:  
-https://github.com/spdx/license-list-XML/issues/new/choose
+The repository currently contains canonical texts for SCL-1.0-Open,
+SCL-1.0-Reciprocal, SCL-1.0-Universal, and SCL-1.1-Universal.
+SCL-1.0 and SCL-Enterprise-1.0 remain documented suite models in this
+overview; their canonical license files are not included in this archive.
 
 ---------------------------------------------------------------------
 

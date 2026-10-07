@@ -1,0 +1,305 @@
+SCL-1.1-Universal — Steven Compton Universal License v1.1
+(Source-Available, Authorized Dependency Integration, Restricted Standalone Redistribution)
+
+Effective Date: <<EFFECTIVE_DATE>>
+Licensor: <<LICENSOR_NAME>> ("Licensor")
+Package: <<PACKAGE_NAME>> ("Package")
+Contact: <<LICENSOR_CONTACT>>
+Governing Jurisdiction: <<JURISDICTION>> ("Governing Jurisdiction")
+Official License URL: <<OFFICIAL_LICENSE_URL>> ("Official License URL")
+
+License Identifier: SCL-1.1-Universal
+Notices: The Contact field identifies Licensor’s notice address; Licensee notices use the contact information supplied to Licensor, if any, subject to Section 12.3.
+
+
+1. Definitions
+
+1.1 “Package”
+
+The identified software, including source code, object code, binaries, compiled outputs, metadata, and documentation supplied by Licensor.
+
+1.2 “Source Code”
+
+Human-readable implementation of the Package.
+
+1.3 “Dependent System”
+
+An application, service, system, device, or other independently developed work that uses the Package as a dependency and supplies substantial functionality of its own. A Dependent System may contain authorized runtime copies of the Package under Section 3 without becoming a separately licensed copy of the Package. A nominal wrapper, renamed library, or product whose principal practical purpose is to supply the Package for independent reuse is not a Dependent System merely because it adds an interface or incidental functionality. Integrated Developer Products are not excluded solely because they expose their own functionality through APIs.
+
+1.4 “Derivative Work”
+
+A work derived from protectable expression in the Package to the extent recognized under applicable law. Ordinary use of documented APIs, interoperability, or independently developed functionality does not alone make a Dependent System a Derivative Work.
+
+1.5 “Authorized Distribution”
+
+Distribution of a Dependent System containing only the Package copies reasonably necessary to operate that Dependent System, subject to Section 3 and the restrictions herein.
+
+1.6 “Standalone Redistribution”
+
+Publishing, selling, sublicensing, hosting for download, or otherwise supplying the Package as a separately usable product, library, package, repository, or substitute for obtaining it from Licensor's authorized distribution channels.
+
+1.7 “Integrated Developer Product”
+
+A genuine framework, SDK, plugin, extension, development tool, or integration with substantial independent functionality that uses the Package as a component but does not supply the Package as a separately installable, extractable-for-independent-use, or reusable substitute. Merely exposing the Integrated Developer Product’s own APIs does not make it Standalone Redistribution.
+
+1.8 “Authorized Personnel”
+
+Licensee's employees, contractors, service providers, and hosting operators acting on Licensee's behalf under obligations appropriate to protect the Package.
+
+1.9 “Governing Jurisdiction”
+
+The jurisdiction specified once in the license header. References to the Governing Jurisdiction throughout this License refer to that definition.
+
+1.10 “Official License URL”
+
+The canonical publication location specified once in the license header. References to the Official License URL throughout this License refer to that definition.
+
+1.11 “Material Breach”
+
+A violation that substantially defeats an essential license obligation or causes significant harm to protected intellectual property or authorized distribution rights. An isolated, non-willful, promptly corrected administrative or technical error is not automatically a Material Breach.
+
+1.12 “Lawfully Obtained Version”
+
+A particular Package release acquired through Licensor or an authorized distribution channel under the license terms expressly applicable to that release.
+
+
+2. Ownership
+
+Licensor retains all ownership and intellectual-property rights in the Package. This License conveys limited permissions, not ownership. Licensee retains ownership of independently developed components of its Dependent Systems.
+
+
+3. License Grant and Authorized Upstream Usage
+
+Subject to the express scope and restrictions of this License, with termination governed exclusively by Section 7, Licensor grants Licensee a non-exclusive, worldwide, royalty-free, non-transferable (except as permitted by applicable law or Licensor's written consent), non-sublicensable license to:
+
+1. Download, install, store, execute, and use Package copies in commercial and noncommercial Dependent Systems, including ordinary build-transformed copies expressly permitted by Section 3.7.
+2. Import, link, invoke, and integrate the Package through its published interfaces.
+3. Make copies reasonably necessary for local development, internal sharing with Authorized Personnel, testing, debugging, compatibility verification, build automation, CI/CD, backup, staging, disaster recovery, and production operations.
+4. Deploy Package copies, including copies transformed solely as permitted by Section 3.7, on Licensee-controlled or authorized third-party infrastructure, including servers, containers, virtual machines, desktop, mobile, embedded, and cloud environments.
+5. Distribute Dependent Systems containing Package runtime copies or compiled/bundled outputs where technically necessary for operation, provided that (a) the Package is not offered as a standalone reusable library or separately marketed product (mere technical extractability from a conventional application bundle, archive, executable, or container does not by itself violate this condition), (b) the Licensee does not purport to grant independent rights to the Package, (c) recipients receive a copy of or accessible link to this License and applicable notices, and (d) no recipient receives rights broader than those expressly granted herein.
+6. Permit end users to run the Package solely as an integrated part of an Authorized Distribution of a Dependent System, subject to the applicable restrictions of this License. This is a direct limited permission from Licensor and not a sublicense by Licensee. Recipients may make ordinary installation, execution, backup, and recovery copies reasonably necessary to use the authorized Dependent System, but may not independently redistribute or extract the Package for separate use. Transfer of a Dependent System does not independently transfer rights to use the Package outside that system.
+
+For each Lawfully Obtained Version, the foregoing rights are irrevocable except upon effective termination under Section 7. An alleged breach, notice of breach, or pending cure period does not by itself suspend or terminate the grant. This does not authorize continued conduct that violates an express restriction or prevent lawful interim remedies. Licensor may discontinue future distribution, updates, maintenance, support, or hosted services without terminating compliant Licensee rights to previously obtained copies. No continued support, compatibility, availability, or security patching is promised.
+
+3.7 Ordinary build transformations.
+
+Transpilation, compilation, bundling, minification, tree shaking, code splitting, compression, and equivalent automated transformations reasonably necessary to build, deploy, optimize, or execute an authorized Dependent System are permitted, including transformed runtime copies distributed under item 5 of this Section 3. These permissions do not authorize manual changes to the Package’s protected implementation, independent forks, removal of required notices where technically practicable, or distribution as a reusable substitute. Build outputs remain subject to this License.
+
+3.8 Integrated Developer Products and distribution boundaries.
+
+Integrated Developer Products may invoke, link, bundle, and distribute Package runtime components to the extent reasonably necessary for the product to operate, under the same conditions as item 5 of this Section 3. An SDK or framework may expose its own APIs, types, and integration interfaces, but may not furnish the Package as an independently reusable library, include Package source files for reuse by downstream developers, or enable recipients to install or redistribute the Package separately under the guise of the developer product. Where downstream developers must directly import, install, or compile against the Package as a distinct dependency, each such developer must obtain the Package through Licensor or an authorized distribution channel under the applicable license, unless Licensor separately authorizes that distribution in writing. Ordinary package-manager resolution, dependency declarations (including peer dependencies), lockfiles, and automated installation from an authorized registry are permitted; these mechanisms do not authorize an Integrated Developer Product distributor to mirror, repackage, or independently redistribute the Package. Any downstream redistribution of the Package as a distinct dependency requires separate authorization under this License or written permission. Incidental technical extractability of an ordinary compiled bundle does not alone violate this Section.
+
+The grant does not permit modifications beyond Section 3.7, standalone redistribution, public mirroring, or publication of its protected implementation. Where a distribution model requires independent redistribution or installation of the Package outside the above grant, separate written permission is required.
+
+3.9 Copyright-license conditions and independent contractual covenants.
+
+(a) Scope of permission. To the extent an activity implicates an exclusive intellectual-property right controlled by Licensor under applicable law, the permissions in this Section are granted only within the expressly authorized scope. In particular, the permissions to reproduce, adapt, and distribute protected portions of the Package are subject to the applicable activity-specific limitations in Sections 3, 4, and 5. No authorization is granted for acts outside that scope, except where separately authorized by Licensor or permitted by applicable law.
+
+(b) Conditions distinguished from covenants. An act outside the scope of an applicable intellectual-property permission may give rise to an infringement claim only if the act infringes a right recognized and enforceable under applicable law, taking account of all statutory exceptions, defenses, and limitations. A failure to perform an independent contractual promise does not, by that fact alone, constitute intellectual-property infringement. Obligations concerning indemnification, dispute procedures, payment, evidence, or other affirmative undertakings are enforceable as contractual covenants only against a person legally bound to them and to the extent permitted by applicable law.
+
+(c) No automatic conversion. Characterizing a provision as a condition, restriction, covenant, or material obligation does not determine its legal classification or remedy where applicable law provides otherwise. Neither the existence of a contractual breach nor the assertion of infringement automatically terminates the permissions granted here; any contractual termination remains subject to Section 7. Independently infringing conduct is not authorized merely because termination has not yet occurred.
+
+(d) Mandatory rights and downstream recipients. Nothing in this Section limits non-waivable rights, fair use or fair dealing where applicable, lawful interoperability, independent development, exhaustion or first-sale principles where applicable, or other mandatory exceptions and defenses. The direct limited permissions granted to authorized downstream recipients under item 6 of Section 3 do not, by themselves, impose affirmative contractual obligations without legally sufficient assent.
+
+(e) Separate rights and remedies. Copyright, patent, trade-secret, contractual, and other rights and remedies remain distinct and arise only to the extent supported by applicable law. This License does not create an exclusive right that applicable law does not recognize.
+
+
+
+4. Restrictions
+
+Except where expressly authorized in Section 3, by written permission, or by non-waivable law, Licensee shall not:
+
+1. Modify, fork, translate, or create unauthorized derivative versions of the Package, except for ordinary build transformations expressly permitted by Section 3.7.
+2. Engage in Standalone Redistribution, registry republishing, public mirroring, or unauthorized package rebranding.
+3. Remove proprietary notices, copyright notices, or identifiers.
+4. Decompile, disassemble, or reverse engineer protected implementation except where applicable law prohibits restriction.
+5. Use unlawfully obtained proprietary source code or confidential information to reproduce the Package's protected implementation.
+6. Make the Package available as a hosted standalone software-development component, package-download service, or direct functional replacement, without permission.
+7. Use the Package in violation of applicable law or third-party rights.
+
+Ordinary API calls, logs, performance profiling, error diagnosis, security assessment (including testing by Authorized Personnel or authorized third-party assessors), coordinated good-faith vulnerability reporting to Licensor, compatibility testing, and observation reasonably necessary for legitimate integration are permitted. Such permission does not authorize disclosure of protected source code or misuse of confidential information. Nothing herein prohibits independently created competing software merely because it performs similar functions; protection against copying and patent infringement remains governed by applicable law.
+
+
+5. Dependent System Requirements
+
+5.1 Integration and notice.
+
+A Dependent System, including an Integrated Developer Product, must provide substantial original functionality, preserve required proprietary notices, identify the Package and its applicable license in accompanying documentation or notices, and comply with Section 3's limits on integrated distribution. It may not represent the Package as independently licensed by Licensee. The Package's public APIs may be used for interoperability; use of those APIs alone is not prohibited emulation.
+
+5.2 No disguised standalone redistribution.
+
+An application or service does not qualify for Authorized Distribution if its principal purpose, evaluated objectively from its design, marketing, functionality, and delivery, is to provide the Package as a reusable substitute for Licensor's authorized distribution. Incidental added features alone do not convert Standalone Redistribution into a Dependent System. This rule does not prohibit genuine applications, Integrated Developer Products, or client-side bundles that provide substantial independent functionality and comply with Section 3.8.
+
+5.3 Source-available boundaries.
+
+Access to Source Code for inspection, debugging, security assessment, and permitted integration does not grant permission to publish, fork, modify, or separately distribute protected implementation. These restrictions do not override rights that cannot lawfully be waived, including applicable interoperability and security research exceptions. No claim is made to exclusive ownership of ideas, functional concepts, public interfaces, or independently created code beyond applicable intellectual-property law.
+
+
+6. Additional Permissions
+
+Licensee may request written permission for modifications, standalone redistribution, special deployment models, or other excluded uses through the Contact address in the header. Licensor may approve, decline, or condition new permissions. A permission already granted in a signed written agreement may be withdrawn only according to that agreement's terms.
+
+
+7. Breach, Notice, Cure, and Termination
+
+7.1 Notice and cure.
+
+For any reasonably curable Material Breach other than conduct described in Section 7.2, Licensor shall give written notice describing the conduct, relevant provision, and reasonably requested cure. Licensee has thirty (30) calendar days after receipt to cure. Timely cure prevents termination for the noticed breach. If a complete cure cannot reasonably occur within thirty days, Licensee may request a reasonable extension supported by documented corrective steps; Licensor shall consider the request in good faith. An extension is effective only when confirmed in writing by Licensor and shall specify its revised cure deadline; Licensor shall not unreasonably withhold confirmation where timely cure is objectively impracticable despite diligent corrective action. A dispute over the allegation does not itself extend the cure period, but neither notice nor dispute alone suspends the license. Termination requires a further written notice identifying an uncured Material Breach and its effective date.
+
+7.2 Serious breaches.
+
+Licensor may terminate upon written notice without a cure period for deliberate unauthorized Standalone Redistribution, willful infringement of Licensor’s protected rights, malicious circumvention, or other intentional Material Breach causing material and irreparable harm, to the extent permitted by applicable law. The notice shall identify the grounds and effective date. Mere suspicion, good-faith security research, or an independently developed competing product does not by itself qualify.
+
+7.3 Security incidents and emergency measures.
+
+A credible, documented security threat involving a Package version does not, by itself, terminate the license of a compliant Licensee. Licensor may temporarily restrict access to infrastructure, hosted services, credentials, or distribution channels actually controlled by Licensor only to the extent reasonably necessary to address active exploitation, unlawful activity, or an imminent material security risk, and subject to applicable law and separate service agreements. Where practicable, Licensor shall give prompt notice describing the affected service or access, the reason, and steps to restore it. Such operational measures are not license termination, do not authorize remote disabling of offline copies or license revocation, and do not revoke rights to continue using a Lawfully Obtained Version already possessed by a compliant Licensee. Any separate contractual service suspension rights remain governed by the applicable service agreement. Licensee misconduct remains subject to Sections 7.1 and 7.2.
+
+7.4 After termination.
+
+Following effective termination, Licensee shall cease further use and new distribution of the affected Package version and, within thirty (30) days, remove copies under its control except legally required archival copies kept inaccessible for operational use. Termination does not retroactively make previously authorized distributions unlawful. End users who received a Dependent System through Authorized Distribution before termination retain their direct limited rights under item 6 of Section 3 unless independently terminated for their own breach. A terminated Licensee may not issue new distributions, updates containing the Package, or additional Package copies under the terminated grant. Nothing requires Licensor to provide continued services or updates.
+
+7.5 Scope and reinstatement.
+
+Termination applies only to the license rights and Package versions specifically identified in the effective termination notice, except where an enforceable separate agreement or applicable law provides otherwise. A notice may identify affected versions by individual release identifiers or an objectively ascertainable version range, provided the scope and grounds are stated clearly enough for Licensee to determine which versions are affected; a general reference to all present or future versions without identifying the affected releases is insufficient. Licensor may reinstate rights expressly in writing. Termination does not transfer ownership of a Dependent System’s independently developed components.
+
+7.6 Remedies.
+
+Licensor may pursue remedies available under applicable law, subject to the distinctions in Section 3.9. Effective termination ends only the permissions identified under Section 7.5; it does not retroactively convert previously authorized acts into infringement. After effective termination, further reproduction, adaptation, or distribution may constitute infringement only where the conduct implicates a protected exclusive right, lacks authorization, and is not covered by an applicable exception or defense. A contractual remedy requires an enforceable obligation and proof of the elements required by applicable law. This Section does not presume entitlement to any particular remedy.
+
+
+8. Warranty Disclaimer and Limitation of Liability
+
+8.1 No warranty.
+
+THE PACKAGE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+8.2 Exclusion of certain damages.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR SHALL NOT BE LIABLE TO LICENSEE FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, OR LOST PROFITS, LOST REVENUE, LOST BUSINESS OPPORTUNITIES, OR LOSS OF DATA, ARISING FROM THE PACKAGE OR THIS LICENSE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8.3 Liability cap and separately negotiated terms.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR'S AGGREGATE LIABILITY TO LICENSEE ARISING OUT OF OR RELATING TO THE AFFECTED PACKAGE OR THIS LICENSE SHALL NOT EXCEED THE GREATER OF (A) ONE HUNDRED UNITED STATES DOLLARS (US $100) OR (B) THE TOTAL FEES PAID DIRECTLY BY LICENSEE TO LICENSOR FOR THE AFFECTED PACKAGE DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM. THIS LIMIT IS A MAXIMUM, NOT LIQUIDATED DAMAGES, MINIMUM COMPENSATION, OR A PROMISE OF PAYMENT; A CLAIMANT MUST ESTABLISH AN OTHERWISE AVAILABLE CLAIM AND RECOVERABLE LOSS.
+
+LICENSOR AND LICENSEE MAY AGREE TO DIFFERENT LIABILITY LIMITS, RISK ALLOCATIONS, OR COMPENSATION ARRANGEMENTS IN A SEPARATELY EXECUTED WRITTEN AGREEMENT. SUCH AGREEMENT CONTROLS ONLY TO THE EXTENT IT EXPRESSLY SUPERSEDES THIS SECTION FOR THE AFFECTED PACKAGE AND PARTIES. ABSENT SUCH AGREEMENT, THE DEFAULT LIMITS ABOVE APPLY. NOTHING HEREIN CREATES A DUTY TO NEGOTIATE OR AN AUTOMATIC RIGHT TO COMPENSATION PROPORTIONAL TO ALLEGED DAMAGES.
+
+8.4 Non-excludable liability and allocation.
+
+NOTHING IN THIS SECTION EXCLUDES OR LIMITS LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED OR LIMITED, INCLUDING LIABILITY FOR FRAUD OR WILLFUL MISCONDUCT WHERE SUCH LIMITATION IS PROHIBITED. THE LIMITATIONS APPLY REGARDLESS OF THE FORM OF ACTION, TO THE EXTENT PERMITTED BY LAW, AND ARE AN ESSENTIAL ALLOCATION OF RISK. THIS SECTION LIMITS LICENSOR'S LIABILITY; IT DOES NOT LIMIT ANY REMEDIES OR LIABILITIES OF LICENSEE EXCEPT WHERE EXPRESSLY STATED ELSEWHERE IN THIS LICENSE.
+
+
+9. Intellectual Property and Marks
+
+Except for the limited patent grant in Section 10, no patent rights are granted. No trademark, logo, brand, or endorsement rights are granted; factual identification of the Package as a dependency and reproduction of legally required notices are permitted.
+
+
+10. Patent Rights
+
+10.1 Limited patent grant.
+
+Subject to compliance with this License, Licensor grants a non-exclusive, worldwide, royalty-free, non-transferable patent license under patent claims Licensor owns or controls and has authority to license that are necessarily infringed by authorized use of the unmodified Package or copies transformed solely as permitted by Section 3.7, solely for activities expressly permitted by Section 3. This grant includes the limited direct recipient uses authorized by item 6 of Section 3, subject to Section 10.4.
+
+10.2 Exclusions.
+
+No patent rights are granted for independently implemented substitutes, unauthorized modifications or forks, separate implementations of patented methods, or combinations beyond the scope necessarily covered by authorized use of the Package (including Section 3.7 build-transformed copies). Ordinary build transformations do not, by themselves, remove the Section 10.1 patent grant.
+
+10.3 Applicable law.
+
+Whether a product infringes a patent depends on valid, enforceable claims and applicable law; similarity or competition alone does not establish infringement.
+
+10.4 Termination and recipients.
+
+Patent rights for a terminated Licensee end only upon effective termination under Section 7. A compliant downstream recipient retains the limited patent permissions necessarily associated with its surviving rights under item 6 of Section 3, to the extent Licensor can grant them and applicable law permits.
+
+
+11. Indemnification
+
+Where Licensee has legally assented to an enforceable agreement incorporating this Section, and to the extent permitted by applicable law, Licensee shall indemnify Licensor against reasonable third-party claims, judgments, settlements, and documented expenses to the extent directly caused by Licensee's unlawful use of the Package, willful infringement of Licensor's protected intellectual-property rights, or material breach of an enforceable obligation under this License. This obligation does not apply to the extent a claim arises from Licensor's own acts or omissions.
+
+Licensor shall provide reasonably prompt notice of a covered claim. Delay in notice reduces Licensee's obligations only to the extent Licensee is materially prejudiced by that delay. Licensee shall have a reasonable opportunity to participate in or control the defense using qualified counsel, subject to appropriate protection of Licensor's interests and any mandatory legal requirements. Neither party may settle a claim in a manner that imposes liability, admissions, or nonmonetary obligations on the other without that party's prior written consent, not to be unreasonably withheld.
+
+Nothing in this Section imposes affirmative contractual indemnification duties on a recipient who has not legally assented to them. Independent remedies available under applicable law remain unaffected.
+
+
+12. Governing Law and Disputes
+
+This License is governed by the law of the Governing Jurisdiction, excluding conflict-of-law rules and subject to mandatory applicable law.
+
+12.1 Notice and informal resolution.
+
+A party asserting a dispute shall provide written notice describing the dispute and requested relief using the Contact address in the header or another address formally designated in writing. The parties shall attempt good-faith informal resolution for thirty (30) days, except where immediate protective relief is legally justified. Notice under this subsection does not replace Section 7 breach notices.
+
+12.2 Forum.
+
+Unless the parties separately agree in writing to an enforceable arbitration agreement identifying the administrator, rules, and seat, disputes shall be brought in courts of competent jurisdiction in the Governing Jurisdiction, subject to mandatory venue and consumer-protection law. Either party may seek provisional relief where legally available. No arbitration obligation is created merely by publishing an external procedure after acceptance of this License.
+
+12.3 Notices, designated contacts, and receipt.
+
+Notices required by Sections 7, 12, or 15.7 must be in writing and sent to Licensor at the Contact address in the header and to Licensee at the last contact address voluntarily provided to Licensor for license-related notices, if any. Email is sufficient if the sender retains a transmission record and does not receive an automated delivery-failure notice; email notice is deemed received on the next business day after transmission, subject to credible evidence of non-delivery. Notice may alternatively be delivered by a tracked postal or courier service and is deemed received upon documented delivery. Where no Licensee contact address has been provided, Licensor must use any other legally sufficient method reasonably available; mere posting at the Official License URL does not constitute individualized breach or termination notice. Licensor may offer an optional notice-contact registration process, but failure to register does not by itself terminate rights or authorize notice by publication alone. A party may update its notice address by written notice. Mandatory legal notice rules prevail.
+
+
+13. Amendments and Version Stability
+
+Licensor may publish revised license versions at the Official License URL. A new version applies to a Package release distributed under that version or when Licensee affirmatively accepts it. Publishing new terms alone does not retroactively change rights for copies lawfully received under an earlier version. Continued use of an existing lawfully licensed version alone does not constitute acceptance of amended terms. Separate signed agreements prevail to the extent of an express conflict.
+
+
+14. Applicability and Versioning
+
+This License applies to Package releases that explicitly identify SCL-1.1-Universal. It does not automatically replace a prior license for previously distributed versions. Each Lawfully Obtained Version remains governed by the license identified for that release unless Licensee affirmatively accepts a later license for it. Licensor may separately offer eligible prior versions under this License by express notice. Any such offer does not revoke previously granted rights.
+
+14.1 License notice and acceptance.
+
+Licensor shall provide the applicable License text or a clear accessible link before direct Package download or installation where practicable, and shall identify the license in Package metadata. For direct recipients, Licensor may use an affirmative click-through acceptance process or another legally sufficient method to establish contractual assent, retaining a record where practicable. Download, installation, or use alone does not conclusively establish assent in every jurisdiction. A distributor of a Dependent System shall provide the license notice required by item 5 of Section 3, but is not required by this License to obtain separate click-through acceptance from every ordinary end user solely for incidental integrated Package execution. The direct limited copyright and patent permissions described in item 6 of Section 3 are intended to permit that execution whether or not a separate enforceable contract arises with an end user; any affirmative contractual obligations asserted against an end user require legally sufficient assent. Mere receipt of a browser-delivered bundle or technical access alone does not conclusively establish such assent. Independent statutory rights and defenses remain governed by applicable law. The distinction between copyright-license conditions and independent contractual covenants is governed by Section 3.9; merely receiving a Package copy does not establish assent to affirmative contractual obligations.
+
+14.2 Package metadata and custom identifier.
+
+SCL-1.1-Universal is the identifier for this License. Distributors shall include the applicable full license text and use the package manager's supported custom-license metadata convention (for example, `SEE LICENSE IN LICENSE.md` where supported). The header's Official License URL is a reference location, not a substitute for providing applicable notices when required by Section 3.
+
+
+15. Good-Faith Usage and Interpretation
+
+
+15.1 Good-faith dependency usage.
+
+Legitimate, reasonable development, installation, integration, execution, testing, maintenance, and deployment activities expressly authorized under Section 3 shall not constitute a breach merely because they involve conventional tooling or operational practices.
+
+15.2 Interpretation.
+
+Where a provision reasonably supports multiple interpretations, the interpretation preserving lawful, good-faith dependency use shall be preferred, but an express, unambiguous restriction controls. Good faith does not authorize a nominal wrapper used to disguise Standalone Redistribution, protected-code copying, or infringement.
+
+15.3 Unintentional deviations.
+
+A non-willful, reasonably curable technical or procedural deviation shall be handled under Section 7.1 rather than triggering automatic immediate termination.
+
+15.4 Notice and cure.
+
+Licensee has the notice-and-cure protections in Section 7.1; the serious-breach exceptions in Section 7.2 remain applicable.
+
+15.5 Reservation of rights.
+
+Good faith does not independently grant modification, ownership, trademark, sublicensing, or redistribution rights beyond those expressly provided herein.
+
+15.6 No waiver of mandatory law.
+
+Nothing in this License limits rights that applicable law does not permit the parties to waive.
+
+15.7 Substantiation of Good Faith.
+
+A Licensee invoking the protections of this Section in response to a reasonably particularized allegation of Material Breach shall, upon a reasonable written request from Licensor, provide reasonably available, credible, and proportionate evidence supporting the claimed good-faith conduct.
+
+Such evidence may include relevant development records, dependency manifests, build configurations, deployment documentation, communications, or other objectively verifiable information. The evidence requested must bear a reasonable relationship to the alleged conduct and the good-faith protection invoked.
+
+Unsupported assertions of good faith shall not, by themselves, establish entitlement to protections that depend upon good-faith conduct. An inability to produce particular records shall not, by itself, establish bad faith or constitute an independent breach.
+
+Licensee shall respond within fifteen (15) business days after receipt of a reasonably particularized written request, or request a reasonable extension explaining the need for additional time. A request for extension does not automatically alter any Section 7 cure deadline; any such alteration must comply with Section 7.1. A reasonable written response may identify available evidence, propose redactions or confidential verification, or explain why specific requested records do not exist or cannot lawfully be disclosed. Failure to respond may be considered alongside other relevant evidence, but does not independently establish Material Breach or authorize termination.
+
+Licensee need not disclose unrelated proprietary information, trade secrets, privileged communications, personal data, or security-sensitive materials beyond what is reasonably necessary to substantiate the claim. Reasonable redaction, summaries, or confidential independent verification may be used where appropriate.
+
+Nothing in this Section creates a presumption of wrongdoing, alters a burden of proof imposed by applicable law, requires evidence as a condition of ordinary authorized use under Section 3, or authorizes suspension or termination except as provided in Section 7.
+
+
+A request for evidence, an objection to its scope, or a dispute over the adequacy of a response does not itself establish a Material Breach, shorten an applicable Section 7.1 cure period, or independently authorize immediate termination under Section 7.2. Any termination must satisfy the substantive and notice requirements of Section 7.
+
+Copyright © <<COPYRIGHT_YEAR>> <<LICENSOR_NAME>>. All rights reserved.
+
+License-Identifier: SCL-1.1-Universal
